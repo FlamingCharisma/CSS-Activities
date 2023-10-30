@@ -1,0 +1,27 @@
+/* Write your code here: */
+
+/* GROUP SELECTOR = selector,selector{}*/ 
+h1, h2 {
+    color:blueviolet;
+}
+
+/* CHILD SELECTOR = selector>selector{}parent to child*/
+.box > p {
+    color: firebrick;
+}
+
+/* DESCENDANT = selector selector{}ancestor to descendant*/
+.box li  {
+    color:blue;
+}
+
+/* CHAINING SELECTOR = selectorselector{} */
+
+li.done {
+    color: seagreen;
+}
+
+/* COMBINING COMBINERS =sample=selector selectorselector{} */
+ ul p.done{
+    font-size: 0.5rem;
+ }
